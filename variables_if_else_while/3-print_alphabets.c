@@ -11,7 +11,7 @@ int main(void)
 		while (b <= 122)
 		{
 			putchar(b);
-		a++;
+		b++;
 		}
 		while (a <= 90)
 		{
