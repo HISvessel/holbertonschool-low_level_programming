@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - prints a character if alpha
- * @c: variable used for returns=
+ * @c: variable used for returns
  *Return: 1 and 0
  */
 int _isalpha(int c)
