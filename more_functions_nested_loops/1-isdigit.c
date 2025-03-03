@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * isdigit - checks for a digit from 0 to 9
+ * _isdigit - checks for a digit from 0 to 9
  *@c: char variable
  *Return: 0 to 1
  */
