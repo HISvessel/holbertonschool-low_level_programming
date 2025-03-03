@@ -7,6 +7,7 @@
 int _isupper(int c)
 {
 	int L;
+
 	for (L = 65; L <= 90; L++)
 	{
 		if (c == L)
