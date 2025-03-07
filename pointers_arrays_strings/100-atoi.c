@@ -14,7 +14,7 @@ int _atoi(char *s)
 	while (s[i] != '\0' && (s[i] < '0' || s[i] > '9'))
 	{
 		if (s[i] == '-')
-			sign = -1;
+			sign *= -1;
 		i++;
 	}
 
@@ -25,11 +25,11 @@ int _atoi(char *s)
 		if (num > 214748364 || (num == 214748364 && digit > 7))
 		{
 		if (sign == 1)
-			return (214748364);
+			return (2147483647);
 		else
-			return (-217748364);
+			return (-2147483648);
 		}
-		num = num + 10 + digit;
+		num = num * 10 + digit;
 		i++;
 	}
 	return (num * sign);
