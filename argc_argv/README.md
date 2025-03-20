@@ -1,0 +1,1 @@
+These proyects called argc and argv are going to be the introduction towards making a more elaborate main function. These functions can be operated from the terminal by giving it arguments from the terminal, which are then passed unto a program. This is where the fun continues, for, as always, C is fun.
