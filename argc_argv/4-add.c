@@ -17,7 +17,7 @@ int is_number(char *s)
 	{
 		if (s[i] < '0' || s[i] > '9')
 			return (0);
-		s[i]++;
+		i++;
 	}
 	return (1);
 }
@@ -26,7 +26,7 @@ int is_number(char *s)
  * main - this function adds the arguments passed to command line
  * @argc: argument counter
  * @argv: argument vector
- * Return: 1 upon failure to add, else 0
+ * Return: 0 on success, 1 on error
  */
 int main(int argc, char *argv[])
 {
