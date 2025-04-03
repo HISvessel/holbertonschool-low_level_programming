@@ -1,0 +1,1 @@
+This new repository holds the projects of the newer section: data structure. This time around, the concept is more specifically on linked lists, what they are, how to use them and how they differ from other known data structures, such as arrays. The journey continues, C is fun.
