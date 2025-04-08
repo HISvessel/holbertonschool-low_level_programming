@@ -1,0 +1,2 @@
+This repository holds the tasks and projects in which we work on doubly linked list data structure. Tis data structure works almost like singly linked
+lists data struxture, with the clear distinction that we can also move backwards between nodes since it has one more pointer which we normally call prev or previous, to incidate that we are accesing our previous node. This time around, head contains a NULL prev pointer, while tail contains a NULL next pointer. The fun continues, for C is fun.
