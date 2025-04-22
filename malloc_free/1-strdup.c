@@ -5,7 +5,7 @@
 /**
  * _strdup - this function duplicates a string
  * @str: poiinter to a string
- * return: the duplicated string
+ * Return: the duplicated string
  */
 char *_strdup(char *str)
 {
