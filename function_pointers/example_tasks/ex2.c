@@ -12,5 +12,5 @@ void B(void (*ptr)())
 
 int main ()
 {
-	B(&A);
+	B(A);
 }
